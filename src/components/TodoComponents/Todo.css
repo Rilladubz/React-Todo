@@ -1,0 +1,30 @@
+
+
+.task {
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 1rem;
+    align-items: baseline;
+    width: 24rem;
+}
+
+.task.completed {
+    background-color: gray;
+    color: red;
+    text-decoration: line-through;
+  }
+
+  .wrapper{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .check{
+      border-radius: 30px;
+  }
+
+  .text{
+      width: 50%;
+      display: flex;
+  }
